@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 })
 
 let trees = document.querySelector(".trees")
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 100; i++) {
 
     let randomDegree = Math.floor(Math.random() * 360) + "deg"
     let randomDegree1 = Math.floor(Math.random() * 360) + "deg"
